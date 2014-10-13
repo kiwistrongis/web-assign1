@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/part3.css"/>
+	<script type="text/javascript" src="js/part3.js"></script>
+</head>
+<body onload="reset_board()">
+	<div class="container">
+		<h1 id="title">play a game of Xs and Os with me, dear</h2>
+		<table class="board">
+			<tr class="row0">
+				<td class="col0" id="cell0" onclick="move( 0)"></td>
+				<td class="col1" id="cell1" onclick="move( 1)"></td>
+				<td class="col2" id="cell2" onclick="move( 2)"></td>
+			</tr>
+			<tr class="row1">
+				<td class="col0" id="cell3" onclick="move( 3)"></td>
+				<td class="col1" id="cell4" onclick="move( 4)"></td>
+				<td class="col2" id="cell5" onclick="move( 5)"></td>
+			</tr>
+			<tr class="row2">
+				<td class="col0" id="cell6" onclick="move( 6)"></td>
+				<td class="col1" id="cell7" onclick="move( 7)"></td>
+				<td class="col2" id="cell8" onclick="move( 8)"></td>
+			</tr>
+		</table>
+		<div><h2 id="message"></h2></div>
+		<button type="button" onclick="reset_board()">reset game</button>
+	</div>
+</body>
+</html>

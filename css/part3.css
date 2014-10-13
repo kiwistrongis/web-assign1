@@ -1,0 +1,21 @@
+body {
+	background: #181818;
+	color: #f3f3f3;
+	font-family: "Ubuntu", Verdana, Arial, sans-serif;
+	font-size: 16px;
+	text-shadow: 0 0 1px #eeeeee;}
+table {
+	border-spacing: 0;}
+td {
+	padding: 0;
+	font-size: 50px;
+	text-align: center;
+	width: 100px;
+	height: 100px;}
+.col0, .col1 {
+	border-right: solid 2px #228a67;}
+.row0 td, .row1 td{
+	border-bottom: solid 2px #228a67;}
+td:hover {
+	background-color: #2d4137;
+	cursor: pointer;}
