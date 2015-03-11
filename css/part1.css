@@ -5,11 +5,6 @@ body {
 	font-size: 16px;
 	text-shadow: 0 0 1px #eeeeee;}
 
-#title {
-	font-size: 32px;
-	font-weight: bold;
-	text-shadow: 0 0 6px #eeeeee;}
-
 .header {
 	margin: 5px;
 	padding: 1px;
@@ -20,18 +15,27 @@ body {
 .header-content {
 	display: inline;}
 
+#title {
+	display: inline;
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 0 0 6px #eeeeee;
+	height: 55%;}
+
 .nav {
+	display: flex;
+	height: 35%;
 	font-weight: bold;
 	font-size: 24px;}
 .nav li {
 	display: inline;}
 
 a:link, a:visited {
-	color: #228a67;
-	text-shadow: 0 0 3px #228a67;
+	color: #77d3b4;
+	text-shadow: 0 0 3px #77d3b4;
 	text-decoration: none;}
 a:link:hover, a:visited:hover {
-	text-shadow: 0 0 4px #3c8e72;
+	text-shadow: 0 0 4px #77d3b4;
 	text-decoration: underline;}
 
 .container {
@@ -50,3 +54,38 @@ a:link:hover, a:visited:hover {
 	padding: 1em;
 	padding-top: 0.2em;
 	padding-bottom: 0.6em;}
+
+table {
+	width: 100%;
+	min-width: 500px;}
+td, th {
+	vertical-align: top;
+	min-width: 62px;
+	width: 14.2%;
+	height: 82px;
+	text-align: center;
+	padding: 0;
+	border-radius: 3px;
+	border: 2px solid #446462;}
+th {
+	vertical-align: middle;
+	height: 40px;}
+
+.calendar-date {
+	padding: 2px;
+	padding-left: 4px;
+	background: #222d2d;
+	text-align: left;}
+.calendar-event {
+	padding: 2px;
+	vertical-align: bottom;}
+
+#comment-form {
+	margin: 10px;}
+#comment-header {}
+#comment-name {
+	width: 240px;}
+#comment-text {
+	margin: 2px;
+	width: 95%;
+	height: 64px;}
